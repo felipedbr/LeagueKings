@@ -1,0 +1,48 @@
+/* Helper */
+.transition(@value) {
+    -webkit-transition: @value;
+    -moz-transition: @value;
+    -ms-transition: @value;
+    -o-transition: @value;
+    transition: @value;
+}
+
+
+/* Bootstrap */
+.btn-danger.focus, .btn-danger:focus {
+    color: #FFF;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-weight: 100 !important;
+    font-family: "Open Sans";
+    .transition(all .2s ease-in-out);
+}
+
+.btn:hover {
+    .transition(all .2s ease-in-out);   
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 0;
+    font-weight: 100 !important;
+}
